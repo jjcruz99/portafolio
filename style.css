@@ -1,0 +1,43 @@
+/* body{
+    background: linear-gradient(to right, rgb(7, 235, 231), rgb(41, 152, 232), rgba(0, 0, 255, 0.534));
+} */
+
+
+/* home */
+.div-home{
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+.div2-home{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 30px;
+    margin: 30px;
+}
+
+#profile-photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+.nameMain{
+    font-size: 40px;
+}
+/* home */
+
+#div-about-me{
+    border: 1px solid blue;
+    background: radial-gradient(circle at center, rgb(5, 212, 219), rgba(10, 44, 235, 0.789), rgb(39, 29, 227));
+}
+#div-competencies{
+    border: 1px solid blue;
+}
+#div-projects{
+    border: 1px solid blue;
+}
+#div-contact{
+    border: 1px solid blue;
+}
