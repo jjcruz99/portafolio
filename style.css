@@ -7,7 +7,7 @@
 .con-competencies{
     border: 1px solid blue;
     text-align: center;
-    background: radial-gradient(circle, #24035b, #1b2474, #083e8a, #00569d, #006ead, #0072b0, #0075b2, #0079b5, #0069ad, #005aa3, #004998, #00398c);
+    background: #3996CF ;
 }
 .con-projects{
     border: 1px solid blue;
@@ -16,7 +16,7 @@
 .con-contact{
     border: 1px solid blue;
     text-align: center;
-    background: #24035b;
+    background: #3996CF;
 }
 
 /* <uniquifier>: Use a unique and descriptive class name
@@ -50,7 +50,7 @@
     justify-content:left;
     /* min-height: 100vh; */
     position: relative;
-    height: 500px;
+    height: 600px;
 }
 
 video {
@@ -154,6 +154,7 @@ video {
     background: #fceaff;
 }
 .con2-competencias{
+    border: 2px solid rgb(255, 0, 106);
     display: flex;
     justify-content: center;
     padding-left: 50px;
@@ -162,11 +163,31 @@ video {
     margin-bottom: 30px;
 }
 .con21-competencias{
+    border: 2px solid blue;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 50%;
     background: #fceaff;
     border-radius: 15px;
+   
+}
+.Competencia{
+    background: #3996CF;
+    margin: 10px 10px;
+    width: 50%;
+    height: 40px;
+    border-radius: 25px;
+    align-content: center;
+    justify-content: center;
+    color:#fceaff ;
+}
+.Competencia:hover{
+    background-color: #f0f0f0; 
+    color: #007BFF; 
+    border:1px solid #007BFF; 
+    cursor: pointer; /* Cambia el cursor a una mano */
 }
 .con22-competencias{
     display: flex;
@@ -180,6 +201,13 @@ video {
  
     background: #fceaff;
 }
+
+/* proyectos  */
+
+
+/*Contact */
+
+
 
 }/*end XL*/
 
