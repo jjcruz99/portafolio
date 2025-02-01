@@ -12,17 +12,21 @@
 <body class="inter-tipo">
   
     <nav class="navbar">
-        <section >
-            <a href="#home">Inicio</a>
-            <a href="#services">Perfil</a>
-            <a href="#about">Competencias</a>
-            <a href="#about">Proyectos</a>
-            <a href="#contact">Contacto</a>
+        <section id="container-navbar">
+            <a id="icono-barra">⌨</a>
+            <a href="#home" class="nav-secciones">Inicio</a>
+            <a href="#about" class="nav-secciones">Perfil</a>
+            <a href="#competencias" class="nav-secciones">Competencias</a>
+            <a href="#projects" class="nav-secciones">Proyectos</a>
+            <a href="#contact" class="nav-secciones">Contacto</a>
+            <a href=""> 
+                <img src="Pictures/list-down.png" alt="" id="icono-barra-menu">
+            </a>
         </section>
 
     </nav>
 
-    <main class="con-home">
+    <main class="con-home" id="home">
 
         <section class="con2-home">
              <img src="Pictures/Foto.JPG" alt="Desarrollador" id="profile-photo"> 
@@ -39,7 +43,7 @@
 
     </main>
 
-        <main class="con-about-me">
+        <main class="con-about-me" id="about">
             <section class="con-subtitulos">
                 <h2 class="sub-titulos" id="sub-titulo-perfil">Perfil</h2>
             </section >
@@ -60,30 +64,35 @@
             </section>
         </main>
 
-        <main class="con-competencies">
+        <main class="con-competencies" id="competencias">
             <section class="con-subtitulos">
                 <h2 class="sub-titulos" id="sub-titulo-competencias">Competencias</h2>
             </section >
             <section class="con2-competencias">
                 <section class="con21-competencias">
-                   <label for="" class="Competencia">Java</label>
-                   <label for="" class="Competencia">Python</Html></label>
-                   <label for="" class="Competencia">GitHub</label>
-                   <label for="" class="Competencia">MySQL - SQL SErver</label>
-                   <label for="" class="Competencia">JavaScript</label>
-                   <label for="" class="Competencia">CSS</label>
-                   <label for="" class="Competencia">HTML</label>
+                   <label for="" class="Competencia" id="java">Java</label>
+                   <label for="" class="Competencia" id="python">Python</Html></label>
+                   <label for="" class="Competencia" id="github">GitHub</label>
+                   <label for="" class="Competencia" id="sql">MySQL - SQL SErver</label>
+                   <label for="" class="Competencia" id="js">JavaScript</label>
+                   <label for="" class="Competencia" id="css">CSS</label>
+                   <label for="" class="Competencia" id="html">HTML</label>
 
                 </section>
                 <section class="con22-competencias">
                    <div class="des-competencias">
-                    
+                        <div id="img-competencia">
+                           
+                        </div>
+                        <div id="texto-competencia">
+                            
+                        </div>
                    </div>
                 </section>
             </section>
         </main>
 
-        <main class="con-projects">
+        <main class="con-projects" id="projects">
             <section class="con-subtitulos">
                 <h2 class="sub-titulos" id="sub-titulo-competencias">Proyectos</h2>
             </section >
@@ -95,7 +104,7 @@
             </section>
         </main>
 
-        <main class="con-contact">
+        <main class="con-contact" id="contact">
             <section class="con-subtitulos">
                 <h2 class="sub-titulos" id="sub-titulo-competencias">Contacto</h2>
             </section >
@@ -107,5 +116,6 @@
             </section>
            
         </main>
+        <script src="script.js"></script>
 </body>
 </html>

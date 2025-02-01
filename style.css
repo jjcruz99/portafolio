@@ -4,19 +4,16 @@
     border: 1px solid blue;
     text-align: center;
 }
-.con-competencies{
-    border: 1px solid blue;
-    text-align: center;
-    background: #3996CF ;
-}
 .con-projects{
     border: 1px solid blue;
     text-align: center;
+    height: 600px;
 }
 .con-contact{
     border: 1px solid blue;
     text-align: center;
     background: #3996CF;
+    height: 600px;
 }
 
 /* <uniquifier>: Use a unique and descriptive class name
@@ -53,20 +50,25 @@
     justify-content: center;
     align-items: center;
 }
-.navbar section{
-   width: 40%;
-   background-color: rgba(255, 255, 255, 0.6);
+#container-navbar{
+   width: 50%;
+   background-color: rgb(255, 255, 255);
    color: rgb(29, 28, 28);
    text-align: center;
    padding: 10px 0;
-   box-shadow: 0 -2px 5px rgba(0,0,0,0.3);
-   margin-bottom: 25px;
+   box-shadow: 0 -2px 5px rgba(13, 36, 87, 0.8);
+   margin-bottom: 35px;
    justify-content: center;
    border-radius: 25px;
 }
 
+.movimiento{
+    background-color: rgba(179, 17, 17, 0.774); 
+}
+
+
 /* Enlaces de navegación */
-.navbar a {
+.nav-secciones {
     color: rgb(14, 13, 13);
     padding: 14px 20px;
     text-decoration: none;
@@ -74,15 +76,18 @@
 }
 
 /* Efecto hover para los enlaces */
-.navbar a:hover {
-    background-color: #575757;
-
+.nav-secciones:hover {
+    background-color:  #3996CF;
+    border-radius: 10px;
 }
+#icono-barra-menu{
+    height: 20px ;
+}
+
 
 /* nav */
 
-/* Estilos para dispositivos extra grandes (XL): 1200px en adelante */
-@media (min-width: 1200px) {
+
 /* start home */
 .con-home{
     border: 1px solid blue;
@@ -173,6 +178,7 @@ video {
 }
 .con2-about-me{
     padding: 80px;
+    
     margin-bottom: 20px;
     background: #fceaff;
     border-radius: 10px;
@@ -194,6 +200,12 @@ video {
     border-radius: 30px;
     background: #fceaff;
 }
+
+.con-competencies{
+    border: 1px solid blue;
+    text-align: center;
+    background: #3996CF ;
+}
 .con2-competencias{
     border: 2px solid rgb(255, 0, 106);
     display: flex;
@@ -202,6 +214,7 @@ video {
     padding-right: 50px;
     gap: 30px;
     margin-bottom: 30px;
+    
 }
 .con21-competencias{
     border: 2px solid blue;
@@ -209,20 +222,21 @@ video {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50%;
-    background: #fceaff;
+    width: 30%;
+    background-color: #f0f0f0; 
     border-radius: 15px;
+    
    
 }
 .Competencia{
-    background: #3996CF;
+    background: #007BFF;
     margin: 10px 10px;
     width: 50%;
     height: 40px;
     border-radius: 25px;
     align-content: center;
     justify-content: center;
-    color:#fceaff ;
+    color:#f0f0f0;
 }
 .Competencia:hover{
     background-color: #f0f0f0; 
@@ -231,16 +245,36 @@ video {
     cursor: pointer; /* Cambia el cursor a una mano */
 }
 .con22-competencias{
+    border: 2px solid blue;
     display: flex;
     flex-direction: column;
-    width: 50%;
-    background: #fceaff;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
     border-radius: 15px;
+    padding: 10px;
+    background-image: url(Pictures/programador-Java.jpg);
+    background-size: cover; /* Ajusta la imagen para cubrir el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 
 .des-competencias{
- 
-    background: #fceaff;
+    border: 2px solid black;
+    height: 90%;
+    width: 90%;
+    border-radius: 15px;
+    display: flex;
+    gap: 10px;
+}
+#img-competencia{
+    border: 2px solid rgb(184, 27, 27);
+    width: 50%;
+}
+#texto-competencia{
+    border: 2px solid rgb(204, 27, 27);
+    width: 50%;
+    height: 100%;
 }
 
 /* proyectos  */
@@ -248,7 +282,8 @@ video {
 
 /*Contact */
 
-
+/* Estilos para dispositivos extra grandes (XL): 1200px en adelante */
+@media (min-width: 1200px) {
 
 }/*end XL*/
 
