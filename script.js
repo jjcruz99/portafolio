@@ -27,5 +27,7 @@ window.addEventListener('scroll', detectarMovimiento);
 
 
 //competencias insertar imagenes
- 
+ document.getElementById('java').addEventListener('click', function(){
+     
+ });
 
