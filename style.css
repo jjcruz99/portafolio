@@ -267,9 +267,10 @@ video {
 #img-competencia{
     border: 2px solid rgb(184, 27, 27);
     width: 50%;
-    background-color: rgba(13, 36, 87, 0.7);
+    background-color: rgba(13, 36, 87, 0.8);
     padding:1%;
     border-radius: 15px;
+    align-content: center;
 }
 #img-tec{
     width: 80%;
@@ -278,15 +279,123 @@ video {
 #texto-competencia{
     border: 2px solid rgb(204, 27, 27);
     width: 50%;
+    padding: 20px;
     background-color: rgba(13, 36, 87, 0.9);
     padding:1%;
     border-radius: 15px;
+    text-align:center;
+    align-content: center;
+
+}
+.texto-habilidad{
+color: #ddd5ec;
+font-size: 18px;
+font-weight: 400;
 }
 
-/* proyectos  */
+/*inicio  proyectos  */
+.con-projects{
+ display: flex;
+ flex-direction: column;
+}
+#sub-titulo-proyectos{
+    color: #1a1296;
+}
 
+/* carrusel proyectos  */
+
+.con-principal-carusel{
+    border:2px solid #1a1296;
+    display: flex;
+    justify-content: center;
+}
+.con-carousel {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid red;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.boton-carrusel{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+/* fin carrusel proyectos  */
+
+/*final  proyectos  */
 
 /*Contact */
+
+.con-contact-contenido{
+display: flex;
+justify-content: center;
+gap: 40px;
+}
+.con-contact-contenido1{
+border: 2px solid green;
+padding: 20px;
+}
+.con-contact-contenido2{
+    border: 2px solid rgb(128, 0, 117);
+    display: flex;
+    padding: 20px;
+}
+.form-contacto1{
+    display: flex;
+    gap: 20px;
+}
+.form-contacto2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.label-form{
+    justify-content: left;
+}
+.con-entradas{
+ display: flex;
+ flex-direction: column;
+ text-align: left;
+}
+.con-form-boton{
+    display: flex;
+    justify-content: right;
+}
+.con-form-boton button{
+    height: 60px;
+    width: 150px;
+    border-radius: 15px;
+}
 
 /* Estilos para dispositivos extra grandes (XL): 1200px en adelante */
 @media (min-width: 1200px) {
