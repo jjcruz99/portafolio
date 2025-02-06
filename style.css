@@ -178,7 +178,7 @@ video {
 .con2-about-me{
     padding: 80px;  
     margin-bottom: 20px;
-    background: #ddd5ec;
+    background: rgba(211, 208, 208, 0.212);
     border-radius: 10px;
 }
 .descripcion{
@@ -235,10 +235,10 @@ video {
 .Competencia:hover{
     background-color: #ddd5ec; 
     color: #1a1296; 
+    border: 2px solid #910fe7;
     font-size: 18px;
     width: 55%;
-    height: 50px;
-    border:1px solid #007BFF; 
+    height: 50px; 
     cursor: pointer; /* Cambia el cursor a una mano */
 }
 .con22-competencias{
@@ -357,6 +357,7 @@ font-weight: 400;
 /*Contact */
 
 .con-contact-contenido{
+
 display: flex;
 justify-content: center;
 gap: 40px;
@@ -364,7 +365,21 @@ gap: 40px;
 .con-contact-contenido1{
 border: 2px solid green;
 padding: 20px;
+align-content: center;
 }
+.con-contact-contenido1 p{
+    font-family: "Inter", serif;
+    font-size: 20px;
+    color: #ddd5ec;
+    margin: 20px;
+}
+.con-contact-contenido1 a{
+    font-family: "Inter", serif;
+    font-size: 20px;
+    color: #ddd5ec;
+    margin: 10px;
+}
+
 .con-contact-contenido2{
     border: 2px solid rgb(128, 0, 117);
     display: flex;
@@ -387,6 +402,25 @@ padding: 20px;
  flex-direction: column;
  text-align: left;
 }
+.con-entradas label{
+    font-size: 20px;
+    color: #ddd5ec;
+    margin: 10px 10px;
+   }
+   .con-entradas input{
+    font-size: 20px;
+    color: #1e0350;
+    margin: 10px 10px;
+    height: 30px;
+    border-radius: 10px;
+   }  
+   .con-entradas textarea{
+    font-family: "Inter", serif;
+    font-size: 20px;
+    color: #1e0350;
+    margin: 10px 10px;
+    border-radius: 10px;
+   } 
 .con-form-boton{
     display: flex;
     justify-content: right;
@@ -395,8 +429,14 @@ padding: 20px;
     height: 60px;
     width: 150px;
     border-radius: 15px;
+    border: 2px solid #007BFF;
+    font-size: 20px;
+    color: #ddd5ec;
+    background-color: rgba(0, 0, 0, 0.1);
 }
-
+.con-form-boton button:hover{
+    border: 2px solid #910fe7;
+}
 /* Estilos para dispositivos extra grandes (XL): 1200px en adelante */
 @media (min-width: 1200px) {
 
