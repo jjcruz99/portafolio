@@ -30,6 +30,7 @@
     display: flex;
     justify-content: center;
    }
+
 .sub-titulos{
     font-family: "Inter", serif;
     font-optical-sizing: auto;
@@ -38,10 +39,10 @@
     font-size: 50px;  
 }
 
-/* nav */
+
 /* Barra de navegación */
 .navbar {
-    border: 1px solid rgb(255, 0, 0);
+    /* border: 1px solid rgb(255, 0, 0); */
     position: fixed;
     display: flex;
     bottom: 0;
@@ -63,11 +64,6 @@
    border-radius: 25px;
 }
 
-.movimiento{
-    background-color: rgba(179, 17, 17, 0.774); 
-}
-
-
 /* Enlaces de navegación */
 .nav-secciones {
     color: rgb(14, 13, 13);
@@ -86,7 +82,7 @@
 }
 
 
-/* nav */
+/* Barra de navegación */
 
 
 /* start home */
@@ -166,22 +162,41 @@ video {
 
   /* end home */
 
-  /* Acerca de mi */
 
-.con-about-me{
-    padding: 30px;
-}
+/*inicio  Acerca de mi */
 
 #sub-titulo-perfil{
     color: #1a1296;
 }
+.subtitulos-2{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px; 
+    color: #1a1296;
+    margin-top: 5px; 
+}
+.con-about-me{
+    padding: 30px;  
+}
 .con2-about-me{
-    padding: 80px;  
+    width: 95%;
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;  
     margin-bottom: 20px;
     background: rgba(211, 208, 208, 0.212);
     border-radius: 10px;
 }
-.descripcion{
+.con-descripcion{
+    width: 40%;
+    padding: 10px 40px 10px 40px;  
+    margin-bottom: 20px;
+    background: rgba(211, 208, 208, 0.212);
+}
+#texto-descripcion{
     text-align: justify;
     font-family: "Inter", serif;
     font-optical-sizing: auto;
@@ -189,31 +204,51 @@ video {
     font-style: normal;
     font-size: 20px;
 }
+.con-educacion{
+    width: 50%;
+    padding: 20px 40px 20px 40px;  
+    margin-bottom: 20px;
+    background: rgba(211, 208, 208, 0.212);
+}
+#lista-educacion{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #1a1296;
+    text-align: left;
+    list-style-type: none;
+}
+#lista-educacion li{
+margin-top: 10px;
+}
+/*final  Acerca de mi */
 
-/*  competencies*/
 
+
+
+/*  seccion competencies*/
 #sub-titulo-competencias{
     color:  #ddd5ec;
 }
 
 .con-competencies{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     text-align: center;
     /* background: #3996CF ; */
     background: radial-gradient(circle, #1a1296, #2612a0, #3212aa, #3d12b4, #4810be, #4810be, #4810be, #4810be, #3d12b4, #3212aa, #2612a0, #1a1296);
 }
 .con2-competencias{
-    border: 2px solid rgb(255, 0, 106);
     display: flex;
     justify-content: center;
     padding-left: 50px;
     padding-right: 50px;
-    gap: 30px;
-    margin-bottom: 30px;
-    
+    padding-bottom: 50px;
+    gap: 30px;  
 }
 .con21-competencias{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -231,7 +266,28 @@ video {
     align-content: center;
     justify-content: center;
     color:#ddd5ec;
+    animation: border-animation 4s infinite;
 }
+
+/*efecto cambio de borde */
+@keyframes border-animation {
+    0% {
+        border-color: #007BFF;
+    }
+    25% {
+        border-color: #28a745;
+    }
+    50% {
+        border-color: #910fe7;
+    }
+    75% {
+        border-color: #dc3545;
+    }
+    100% {
+        border-color: #007BFF;
+    }
+}
+
 .Competencia:hover{
     background-color: #ddd5ec; 
     color: #1a1296; 
@@ -241,15 +297,17 @@ video {
     height: 50px; 
     cursor: pointer; /* Cambia el cursor a una mano */
 }
+
+ /* contenedor imagen y texto */
 .con22-competencias{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 60%;
     border-radius: 15px;
-    padding: 10px;
+    padding: 2px;
     background-image: url(Pictures/programador-Java.jpg);
     background-size: cover; /* Ajusta la imagen para cubrir el contenedor */
     background-position: center; /* Centra la imagen en el contenedor */
@@ -257,46 +315,53 @@ video {
 }
 
 .des-competencias{
-    border: 2px solid black;
-    height: 90%;
-    width: 90%;
+    width: 80%;
+    border: 2px solid rgb(0, 0, 0);
+    height: 80%;
     border-radius: 15px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
-#img-competencia{
-    border: 2px solid rgb(184, 27, 27);
-    width: 50%;
-    background-color: rgba(13, 36, 87, 0.8);
+#con-img-competencia{
+    /* border: 2px solid rgb(184, 27, 27); */
+    width: 40%;
+    background-color: rgba(13, 36, 87, 0.9);
     padding:1%;
     border-radius: 15px;
     align-content: center;
 }
 #img-tec{
-    width: 80%;
+    width: 90%;
 }
 
-#texto-competencia{
-    border: 2px solid rgb(204, 27, 27);
-    width: 50%;
-    padding: 20px;
+#con-texto-competencia{
+    /* border: 2px solid rgb(204, 27, 27); */
+    width: 90%;
     background-color: rgba(13, 36, 87, 0.9);
-    padding:1%;
+    padding:3%;
     border-radius: 15px;
-    text-align:center;
+    text-align:left;
     align-content: center;
-
 }
 .texto-habilidad{
 color: #ddd5ec;
-font-size: 18px;
+font-size: 16px;
 font-weight: 400;
+margin-top: 20px;
 }
+
+/* final competencies */
+
+
 
 /*inicio  proyectos  */
 .con-projects{
  display: flex;
  flex-direction: column;
+ background-image: url(Pictures/desarrollador_java.png);
+ background-size: cover; /* Ajusta la imagen para cubrir el contenedor */
+ background-position: center; /* Centra la imagen en el contenedor */
+ background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 #sub-titulo-proyectos{
     color: #1a1296;
@@ -305,7 +370,6 @@ font-weight: 400;
 /* carrusel proyectos  */
 
 .con-principal-carusel{
-    border:2px solid #1a1296;
     display: flex;
     justify-content: center;
 }
@@ -316,8 +380,7 @@ font-weight: 400;
     overflow: hidden;
     border: 2px solid #ccc;
     border-radius: 10px;
-    background-color: #fff;
-    border: 2px solid red;
+    background-color: #fff; 
 }
 
 .carousel {
@@ -330,17 +393,22 @@ font-weight: 400;
     box-sizing: border-box;
     padding: 20px;
 }
+.carousel-item p {
+   font-size: 20px;
+   font-weight: 400;
+}
 
 .boton-carrusel{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    background-color: rgb(21, 3, 102);
+    color: rgb(223, 221, 231);
     border: none;
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
+    font-size: 16px;
 }
 
 .prev-btn {
@@ -350,6 +418,11 @@ font-weight: 400;
 .next-btn {
     right: 10px;
 }
+.img-proyecto{
+    width: 150px;
+    height: 120px;
+    border-radius: 10px;
+}
 /* fin carrusel proyectos  */
 
 /*final  proyectos  */
@@ -357,31 +430,35 @@ font-weight: 400;
 /*Contact */
 
 .con-contact-contenido{
-
 display: flex;
 justify-content: center;
 gap: 40px;
 }
 .con-contact-contenido1{
-border: 2px solid green;
+/* border: 2px solid green; */
 padding: 20px;
 align-content: center;
 }
 .con-contact-contenido1 p{
-    font-family: "Inter", serif;
     font-size: 20px;
     color: #ddd5ec;
     margin: 20px;
 }
 .con-contact-contenido1 a{
-    font-family: "Inter", serif;
     font-size: 20px;
     color: #ddd5ec;
     margin: 10px;
 }
-
+.icono-contacto{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #1a1296;
+    padding: 10px;
+    margin: 10px;
+}
 .con-contact-contenido2{
-    border: 2px solid rgb(128, 0, 117);
+    /* border: 2px solid rgb(128, 0, 117); */
     display: flex;
     padding: 20px;
 }
@@ -437,6 +514,22 @@ align-content: center;
 .con-form-boton button:hover{
     border: 2px solid #910fe7;
 }
+/*final  Contact */
+
+
+
+/*inicio footer */
+.con-footer{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    background: #1a1296;
+    color: #ddd5ec;
+    height: 50px;
+    font-size: 12px;
+    padding-right: 40px;
+}
+
 /* Estilos para dispositivos extra grandes (XL): 1200px en adelante */
 @media (min-width: 1200px) {
 

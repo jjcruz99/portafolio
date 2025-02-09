@@ -45,23 +45,32 @@
 
         <main class="con-about-me" id="about">
             <section class="con-subtitulos">
-                <h2 class="sub-titulos" id="sub-titulo-perfil">Perfil</h2>
+                <h2 class="sub-titulos" id="sub-titulo-perfil">A cerca de mi</h2>
             </section >
 
             <section class="con2-about-me">
-                <p class="descripcion">
-                    Ingeniero electrónico con énfasis en desarrollo Full-Stack Java.
-                     Poseo conocimientos en HTML, CSS, JavaScript, Bootstrap, Spring Boot, 
-                     MySQL y GitHub, así como en el consumo y desarrollo de APIs. 
-                     Con experiencia en proyectos académicos bajo metodología Scrum. 
-                     Me destaco por mi proactividad, pensamiento cuantitativo, capacidad analítica, 
-                     orientación al detalle, trabajo en equipo y habilidad para resolver problemas. 
-                     Contribuyo al éxito de la empresa aplicando mi capacidad de lógica de 
-                     programación para diseñar soluciones eficientes y mi compromiso autodidacta 
-                     para adaptarme rápidamente a nuevas tecnologías y desafíos del
-                     desarrollo de software.
-                </p>
+                <section class="con-descripcion">
+                    <h3 class="subtitulos-2">¡Hola! 👋</h3>
+                    <p id="texto-descripcion">
+                        Mucho gusto soy ingeniero electrónico apasionado por la tecnología.
+                        Me encanta encontrar soluciones creativas a los problemas y ver 
+                        cómo mis ideas cobran vida. Disfruto aprender cosas nuevas y estar 
+                        siempre al día con los últimos avances. Soy proactivo, curioso,
+                        comprometido y siempre en busca de mejorar.
+                    </p>
+                </section>
+                <section class="con-educacion">
+                    <h3 class="subtitulos-2">Educacion</h3>
+                    <ul id="lista-educacion">
+                        <li>🎓 Desarrollor FullStack Java - Generation</li>
+                        <li>🎓 Ingeniero Electrónico - UCC</li>
+                        <li>🎓 Microsoft Azure Tools and Security Solutions - Coursera</li>
+                        <li>🎓 Developing Interpersonal Skills - Coursera</li>
+                        <li>🎓 Introduction to Microsoft Azure Cloud Services - Coursera</li>
+                    </ul>
+                </section>
             </section>
+
         </main>
 
         <main class="con-competencies" id="competencias">
@@ -81,13 +90,13 @@
                 </section>
                 <section class="con22-competencias">
                    <div class="des-competencias">
-                        <div id="img-competencia">
+                        <div id="con-img-competencia">
                            <img src="Pictures/java.png" id="img-tec">
                         </div>
-                        <div id="texto-competencia">
-                            <p class="texto-habilidad">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, deserunt.</p>
-                            <p class="texto-habilidad">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, deserunt.</p>
-                            <p class="texto-habilidad">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, deserunt.</p>
+                        <div id="con-texto-competencia">
+                            <p class="texto-habilidad">Programación Orientada a Objetos : Encapsulamiento, herencia y polimorfismo para escribir código limpio y modular.</p>
+                            <p class="texto-habilidad">Manejo de Colecciones y Streams : Uso eficiente de listas, mapas y conjuntos.</p>
+                            <p class="texto-habilidad">Gestión de Excepciones y Concurrencia : Implementación de manejo de errores con excepciones personalizadas.</p>
                              
                         </div>
                    </div>
@@ -103,29 +112,28 @@
                 <section class="con-carousel">
                     <div class="carousel">
                         <div class="carousel-item">
-                            <h3>PatuSalud</h3>
-                            <h4>Generation</h4>
-                            <p>Descripción del Proyecto 1
-                               xxxxxxxxxx
-                               xxxxxxxxxxx
-                            </p>
-                            <p>xxxxxxxxxxx</p>
-                            <p>mmmmmmmmmmmm</p>
-                            <p>yyyyyyyyyyyy</p>
+                            <h3 class="subtitulos-2">PatuSalud</h3>
+                            <img src="Pictures/patusalud.JPG" alt="" class="img-proyecto">
+                            <p>Ecomerce de productos y servicios para la salud mental, fue desarrollado con Java, 
+                                Sprint Boot, MySQL, HTML, CSS y JavaScript. Bajo la metodología SCRUM.
+                             </p>
+                             <a href="https://github.com/jjcruz99/project_final.git" target="_blank">PatuSalud</a>
                         </div>
                         <div class="carousel-item">
-                            <h3>Proyecto 2</h3>
-                            <p>Descripción del Proyecto 2
-                               vvvvvvvvvvvvvvvv
-                               vvvvvvvvvvvv
+                            <h3 class="subtitulos-2">Gen-Kicks</h3>
+                            <img src="Pictures/genKicks.png" alt="" class="img-proyecto">
+                            <p>Lading Page de una tienda de zapatillas, fue desarrollado duarante Hackaton de Generation, 
+                                con HTML, CSS y bootstrap. En un equipo de tres personas en un perido de 6 horas.
                             </p>
+                            <a href="https://github.com/AndresGomezV/landig-page-sports/tree/rama_john" target="_blank">Gen-Kicks</a>
                         </div>
                         <div class="carousel-item">
-                            <h3>Proyecto 3</h3>
-                            <p>Descripción del Proyecto 3
-                               mmmmmmmmmmmmmm
-                               mmmmmmmmmmmmmm
+                            <h3 class="subtitulos-2">Ejercicio-Logica</h3>
+                            <img src="Pictures/logica.png" alt="" class="img-proyecto">
+                            <p>Ejercicio de lógica de programación ordena 3 numeros, desarrollado duraente bootcamp de Generation, 
+                                con JavaScript, HTML y CSS.
                             </p>
+                            <a href="https://github.com/jjcruz99/logica-programacion-1.git" target="_blank">Logica</a>
                         </div>
                     </div>
                     <button class="prev-btn boton-carrusel">Anterior</button>
@@ -141,10 +149,18 @@
             
             <section class="con-contact-contenido">
                 <div class="con-contact-contenido1">
-                    <p>📞  +57 321 941 9509</p>
-                    <p>📩  jjcruz139@gmail.com</p>
-                    <a href="https://www.linkedin.com/in/john-jairo-cruz-mogoll%C3%B3n-desarrollador/" target="_blank" rel="linkedin John Cruz">Linkedin</a>
-                    <a href="https://github.com/jjcruz99">GitHub</a>
+                    <div class="con-datos-contacto">
+                        <img src="Pictures/whatsapp.png" alt="" class="icono-contacto">
+                        <p>+57 321 941 9509</p> 
+                    </div>
+                    <div class="con-datos-contacto">
+                        <img src="Pictures/Gmail.png" alt="" class="icono-contacto">
+                        <p>jjcruz139@gmail.com</p>
+                    </div>
+                    <div class="con-datos-contacto">
+                        <a href="https://www.linkedin.com/in/john-jairo-cruz-mogoll%C3%B3n-desarrollador/" target="_blank" rel="linkedin John Cruz">Linkedin</a>
+                        <a href="https://github.com/jjcruz99" target="_blank">GitHub</a>
+                    </div>
                 </div>
                 <div class="con-contact-contenido2">
                     <form action="https://formspree.io/f/xldgldvo" method="post" >
@@ -180,6 +196,12 @@
                 </div>
             </section>
         </main>
+
+        <footer>
+            <section class="con-footer">
+                <p>John Jairo Cruz Mogollon</p>
+                <p>Desarrollador Full-Stack</p>
+        </footer>
         <script src="script.js"></script>
 </body>
 </html>
