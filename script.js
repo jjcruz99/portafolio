@@ -75,7 +75,7 @@ const textosDescripcion = `
 insertarimagen(direccion,textosDescripcion);
 });
 document.getElementById('js').addEventListener('mousemove', function(){
-  const direccion = 'Pictures/javaScript.png';
+  const direccion = 'Pictures/javascript.png';
   const textosDescripcion = `
   <p class="texto-habilidad">Manipulación del DOM : Uso de document.querySelector, createElement, y appendChild para modificar dinámicamente el contenido de la página.</p>
   <p class="texto-habilidad">Eventos y Listeners : Manejo de eventos con addEventListener, delegación de eventos y control de interacciones del usuario.</p>
