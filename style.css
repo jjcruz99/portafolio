@@ -1,11 +1,7 @@
 
 /* https://mycolor.space/?hex=%2324035B&sub=1 */
 
-.con-projects{
-    border: 1px solid blue;
-    text-align: center;
-    height: 600px;
-}
+
 
 
 /* <uniquifier>: Use a unique and descriptive class name
@@ -346,9 +342,12 @@ margin-top: 20px;
 
 
 /*inicio  proyectos  */
+
 .con-projects{
  display: flex;
  flex-direction: column;
+ text-align: center;
+ height: 600px;
  background-image: url(Pictures/desarrollador_java.png);
  background-size: cover; /* Ajusta la imagen para cubrir el contenedor */
  background-position: center; /* Centra la imagen en el contenedor */
@@ -737,7 +736,6 @@ margin-bottom:70px;
 .con-about-me{
     padding: 5px;  
     width: 90%;
-    border: 1px solid blue;
 }
 .con2-about-me{
     width: 96%;
