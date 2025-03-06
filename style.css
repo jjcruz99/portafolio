@@ -1,7 +1,7 @@
 
 /* https://mycolor.space/?hex=%2324035B&sub=1 */
 
-
+ 
 
 
 /* <uniquifier>: Use a unique and descriptive class name
@@ -293,6 +293,7 @@ margin-top: 10px;
     justify-content: center;
     align-items: center;
     width: 80%;
+    height: auto;
     border-radius: 15px;
     padding: 2px;
     background-image: url(Pictures/programador-Java.jpg);
@@ -303,10 +304,10 @@ margin-top: 10px;
 
 .des-competencias{
     width: 90%;
-    border: 2px solid rgb(0, 0, 0);
     height: 80%;
     border-radius: 15px;
     display: flex;
+    padding: 20px 5px 20px 5px; 
     gap: 20px;
 }
 #con-img-competencia{
@@ -397,7 +398,7 @@ margin-top: 20px;
     border: none;
     padding: 10px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 15px;
     font-size: 16px;
 }
 
@@ -688,6 +689,178 @@ margin-bottom:70px;
 }
 /*final ajustes Acerca de mi*/
 
+/*ajustes section competencias*/
+.con2-competencias{
+    /* border: 2px solid rgb(229, 255, 0);  */
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    gap: 10px;  
+}
+
+.Competencia{
+    width: 90%;
+    font-size: 12px;
+}
+
+.Competencia:hover{
+    font-size: 13px;
+    height: 40px; 
+}
+
+.des-competencias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    gap: 10px;
+}
+#con-img-competencia{
+    /* border: 2px solid rgb(184, 27, 27); */
+    width: 40%;
+    background-color: rgba(13, 36, 87, 0.9);
+    padding:1%;
+    border-radius: 15px;
+    align-content: center;
+}
+#img-tec{
+    width: 50%;
+}
+
+#con-texto-competencia{
+    /* border: 2px solid rgb(204, 27, 27); */
+    width: 95%;
+}
+
+.texto-habilidad{
+font-size: 13px;
+font-weight: 350;
+}
+
+/*fin ajustes section competencias*/
+
+
+        /*ajustes section proyectos*/
+
+        .carousel-item p {
+        font-size: 14px;
+        font-weight: 400;
+        }
+
+        .boton-carrusel{
+            font-size: 14px;
+        }
+
+        .prev-btn {
+            left: 10px;
+        }
+
+        .next-btn {
+            right: 10px;
+        }
+        .img-proyecto{
+            width: 130px;
+            height: 100px;
+        }
+
+        /* final ajustes section proyectos*/
+
+ /*ajustes section contacto*/
+ 
+    .con-contact-contenido{
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        }
+
+        .con-contact-contenido1{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 5px;
+            justify-content: center;
+            align-items: center;
+            align-content: end;
+            width: 90%;
+            margin-bottom:70px;
+            }
+        .con-datos-contacto{
+            display: flex;
+            flex-direction: row;
+        }
+        .con-datos-contacto p {
+            font-size: 16px;
+            margin: 3px;
+        }
+        .con-datos-contacto a{
+            font-size: 16px;
+            margin: 3px;
+        }
+        .icono-contacto{
+            width: 40px;
+            height: 40px;
+        }
+         
+        /* contenedor formulario */
+        .con-contact-contenido2{
+            /* border: 2px solid rgb(128, 0, 117); */
+            padding: 20px;
+            width: 95%;
+        }
+        .form-contacto1{
+            width: 90%;
+            display: flex;
+            gap: 20px;
+            justify-content:space-between ;
+        }
+        .form-contacto2{
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .con-entradas{
+         display: flex;
+         flex-direction: column;
+         text-align: left;
+         width: 100%;
+        }
+        .con-entradas label{
+            font-size: 16px;
+           }
+           .con-entradas input{
+            font-size: 16px;
+            width: 98%;
+           }  
+           .con-entradas input:placeholder-shown{
+            font-size: 14px;
+            padding-left: 5px;
+           }
+           .con-entradas textarea{
+            font-size: 16px;
+            width: 98%;
+           } 
+           .con-entradas textarea:placeholder-shown{
+            font-size: 14px;
+            padding-left: 5px;
+            padding-top: 5px;
+           }
+        .con-form-boton{
+            display: flex;
+            justify-content: right;
+        }
+        .con-form-boton button{
+            height: 50px;
+            width: 130px;
+            font-size: 18px;
+        }
+
+  /* fin ajustes section contacto*/
+
 }
 
 /* Estilos para dispositivos extra pequeÃ±os (XS): Menos de 576px */
@@ -758,8 +931,182 @@ margin-bottom:70px;
 #lista-educacion{
     font-size: 16px;
 }
+
 /*final ajustes Acerca de mi*/
 
+/*ajustes section competencias*/
+.con2-competencias{
+    /* border: 2px solid rgb(229, 255, 0);  */
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    gap: 10px;  
+}
+
+.Competencia{
+    width: 90%;
+    font-size: 12px;
+}
+
+.Competencia:hover{
+    font-size: 13px;
+    height: 40px; 
+}
+
+.des-competencias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    gap: 10px;
+}
+#con-img-competencia{
+    /* border: 2px solid rgb(184, 27, 27); */
+    width: 40%;
+    background-color: rgba(13, 36, 87, 0.9);
+    padding:1%;
+    border-radius: 15px;
+    align-content: center;
+}
+#img-tec{
+    width: 50%;
+}
+
+#con-texto-competencia{
+    /* border: 2px solid rgb(204, 27, 27); */
+    width: 95%;
+}
+
+.texto-habilidad{
+font-size: 12px;
+font-weight: 300;
+}
+
+/*fin ajustes section competencias*/
+
+          /*ajustes section proyectos*/
+
+          .carousel-item p {
+            font-size: 12px;
+            font-weight: 400;
+            }
+    
+            .boton-carrusel{
+                font-size: 12px;
+            }
+    
+            .prev-btn {
+                left: 5px;
+            }
+    
+            .next-btn {
+                right: 5px;
+            }
+            .img-proyecto{
+                width: 100px;
+                height: 70px;
+            }
+    
+            /* final ajustes section proyectos*/
+
+ /*ajustes section contacto*/
+ 
+ .con-contact-contenido{
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    }
+
+    .con-contact-contenido1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+        align-content: end;
+        width: 90%;
+        margin-bottom:70px;
+        }
+    .con-datos-contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .con-datos-contacto p {
+        font-size: 16px;
+        margin: 3px;
+    }
+    .con-datos-contacto a{
+        font-size: 16px;
+        margin: 3px;
+    }
+    .icono-contacto{
+        width: 40px;
+        height: 40px;
+    }
+     
+    /* contenedor formulario */
+    .con-contact-contenido2{
+        /* border: 2px solid rgb(128, 0, 117); */
+        padding: 20px;
+        width: 95%;
+    }
+    .form-contacto1{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content:space-between ;
+    }
+    .form-contacto2{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .con-entradas{
+     display: flex;
+     flex-direction: column;
+     text-align: left;
+     width: 100%;
+    }
+    .con-entradas label{
+        font-size: 16px;
+       }
+       .con-entradas input{
+        font-size: 16px;
+        width: 98%;
+       }  
+       .con-entradas input:placeholder-shown{
+        font-size: 14px;
+        padding-left: 5px;
+       }
+       .con-entradas textarea{
+        font-size: 16px;
+        width: 98%;
+       } 
+       .con-entradas textarea:placeholder-shown{
+        font-size: 14px;
+        padding-left: 5px;
+        padding-top: 5px;
+       }
+    .con-form-boton{
+        display: flex;
+        justify-content: right;
+    }
+    .con-form-boton button{
+        height: 50px;
+        width: 130px;
+        font-size: 18px;
+    }
+
+
+  /* fin ajustes section contacto*/
 }
 
 
