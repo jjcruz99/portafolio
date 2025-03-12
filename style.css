@@ -148,9 +148,7 @@ video {
     text-align: center;
     background: linear-gradient(to bottom, #0d0d0d, #1b1b20, #252732, #2d3545, #344459);
 }
-#sub-titulo-perfil{
-    
-}
+
 .subtitulos-2{
     font-family: "Inter", serif;
     font-optical-sizing: auto;
@@ -181,6 +179,7 @@ video {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 #texto-descripcion{
     text-align: justify;
     font-weight: 400;
@@ -348,9 +347,6 @@ margin-top: 20px;
  text-align: center;
  height: 600px;
  background: linear-gradient(to bottom, #0d0d0d, #1b1b20, #252732, #2d3545, #344459);
-}
-#sub-titulo-proyectos{
-    
 }
 
 /* carrusel proyectos  */
