@@ -24,6 +24,8 @@
     font-weight: 600;
     font-style: normal;
     font-size: 50px;  
+    color:#ddd5ec ;
+    text-shadow: 2px 2px 2px #000;
 }
 
 
@@ -74,7 +76,6 @@
 
 /* start home */
 .con-home{
-    border: 1px solid blue;
     display: flex;
     align-items: center;
     justify-content:left;
@@ -100,7 +101,8 @@ video {
   /* background-image: linear-gradient(to right top, #24035b, #042d7c, #004e97, #006eab, #008dba, #008dba, #008dba, #008dba, #006eab, #004e97, #042d7c, #24035b); */
   /* background: #24035b; */
   /* background: radial-gradient(circle, #24035b, #1b2474, #083e8a, #00569d, #006ead, #0072b0, #0075b2, #0079b5, #0069ad, #005aa3, #004998, #00398c); */
-  background: linear-gradient(to left, #1a1296, #2914a1, #3615ad, #4216b8, #4f17c3, #4f17c3, #4f17c3, #4f17c3, #4216b8, #3615ad, #2914a1, #1a1296);
+  /* background: linear-gradient(to left, #1a1296, #2914a1, #3615ad, #4216b8, #4f17c3, #4f17c3, #4f17c3, #4f17c3, #4216b8, #3615ad, #2914a1, #1a1296); */
+  background: linear-gradient(to top, #344459, #325074, #2e5c90, #2668ad, #1b74ca, #1781db, #108feb, #009dfc, #00afff, #00bffe, #00cef9, #05dbf2);
   opacity: 0.9;
   mix-blend-mode:color-burn; /*color-burn */
 }
@@ -116,16 +118,7 @@ video {
     height: 300px;
     border-radius: 10%;
 }
-.capa-img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(8, 5, 173, 0.1); /* Color de fondo */
-    mix-blend-mode: overlay; /* Mezcla el color y la imagen */   
-    border-radius: 100%;
-}
+
 .con3-home{
     /* border: 1px solid rgb(0, 0, 0); */
     padding: 30px;
@@ -153,9 +146,10 @@ video {
 /*inicio  Acerca de mi */
 .con-about-me{
     text-align: center;
+    background: linear-gradient(to bottom, #0d0d0d, #1b1b20, #252732, #2d3545, #344459);
 }
 #sub-titulo-perfil{
-    color: #1a1296;
+    
 }
 .subtitulos-2{
     font-family: "Inter", serif;
@@ -163,7 +157,8 @@ video {
     font-weight: 500;
     font-style: normal;
     font-size: 35px; 
-    color: #1a1296;
+    color: #05DBF2;
+    text-shadow: 2px 2px 2px #000;
     margin-top: 5px; 
 }
 .con-about-me{
@@ -176,38 +171,38 @@ video {
     justify-content: center;
     padding: 20px;  
     margin-bottom: 20px;
-    background: rgba(211, 208, 208, 0.212);
+    /* background: rgba(211, 208, 208, 0.212); */
     border-radius: 10px;
 }
 .con-descripcion{
     width: 40%;
     padding: 10px 40px 10px 40px;  
     margin-bottom: 20px;
-    background: rgba(211, 208, 208, 0.212);
+    /* background: rgba(211, 208, 208, 0.212); */
 }
 #texto-descripcion{
     text-align: justify;
-    font-family: "Inter", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    line-height: 1.5;
+    font-size: 22px;
+    color: #05DBF2;
 }
 .con-educacion{
     width: 50%;
     padding: 20px 40px 20px 40px;  
     margin-bottom: 20px;
-    background: rgba(211, 208, 208, 0.212);
-}
+    /* background: rgba(211, 208, 208, 0.212);*/
+} 
 #lista-educacion{
     font-family: "Inter", serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
-    font-size: 20px;
-    color: #1a1296;
+    font-size: 22px;
+    color: #05DBF2;
     text-align: left;
-    list-style-type: none;
+    
 }
 #lista-educacion li{
 margin-top: 10px;
@@ -220,12 +215,15 @@ margin-top: 10px;
 /*  seccion competencies*/
 #sub-titulo-competencias{
     color:  #ddd5ec;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px #000;
 }
 
 .con-competencies{
     /* border: 1px solid blue; */
     text-align: center;
-    background: radial-gradient(circle, #1a1296, #2612a0, #3212aa, #3d12b4, #4810be, #4810be, #4810be, #4810be, #3d12b4, #3212aa, #2612a0, #1a1296);
+    /* background: radial-gradient(circle, #1a1296, #2612a0, #3212aa, #3d12b4, #4810be, #4810be, #4810be, #4810be, #3d12b4, #3212aa, #2612a0, #1a1296); */
+    background: linear-gradient(to bottom, #0d0d0d, #1b1b20, #252732, #2d3545, #344459);
 }
 .con2-competencias{
     display: flex;
@@ -242,7 +240,6 @@ margin-top: 10px;
     align-items: center;
     justify-content: center;
     width: 20%;
-   /* background-color:  #1a1296; /*#ddd5ec*/
     border-radius: 15px;
 }
 .Competencia{
@@ -276,9 +273,7 @@ margin-top: 10px;
     }
 }
 
-.Competencia:hover{
-    background-color: #ddd5ec; 
-    color: #1a1296; 
+.Competencia:hover{ 
     border: 2px solid #910fe7;
     font-size: 18px;
     height: 50px; 
@@ -349,13 +344,10 @@ margin-top: 20px;
  flex-direction: column;
  text-align: center;
  height: 600px;
- background-image: url(Pictures/desarrollador_java.png);
- background-size: cover; /* Ajusta la imagen para cubrir el contenedor */
- background-position: center; /* Centra la imagen en el contenedor */
- background-repeat: no-repeat; /* Evita que la imagen se repita */
+ background: linear-gradient(to bottom, #0d0d0d, #1b1b20, #252732, #2d3545, #344459);
 }
 #sub-titulo-proyectos{
-    color: #1a1296;
+    
 }
 
 /* carrusel proyectos  */
@@ -367,11 +359,12 @@ margin-top: 20px;
 .con-carousel {
     position: relative;
     width: 80%;
+    height: auto;
     max-width: 800px;
     overflow: hidden;
-    border: 2px solid #ccc;
+    border: 1px solid #05DBF2;
     border-radius: 10px;
-    background-color: #fff; 
+    
 }
 
 .carousel {
@@ -385,15 +378,23 @@ margin-top: 20px;
     padding: 20px;
 }
 .carousel-item p {
-   font-size: 20px;
+   font-size: 22px;
    font-weight: 400;
+   line-height: 1.5;
+   color: #05DBF2;
 }
+.carousel-item a {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0583F2;
+ }
 
 .boton-carrusel{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgb(21, 3, 102);
+    background-color: #0583F2;
     color: rgb(223, 221, 231);
     border: none;
     padding: 10px;
@@ -420,9 +421,8 @@ margin-top: 20px;
 
 /*Contact */
 .con-contact{
-    border: 1px solid blue;
     text-align: center;
-    background: linear-gradient(to left, #1a1296, #2914a1, #3615ad, #4216b8, #4f17c3, #4f17c3, #4f17c3, #4f17c3, #4216b8, #3615ad, #2914a1, #1a1296);
+    background: linear-gradient(to bottom, #0d0d0d, #1b1b20, #252732, #2d3545, #344459);
 }
 .con-contact-contenido{
 display: flex;
