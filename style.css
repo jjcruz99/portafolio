@@ -186,7 +186,7 @@ video {
     font-style: normal;
     line-height: 1.5;
     font-size: 22px;
-    color: #05DBF2;
+    color: #ddd5ec;
 }
 .con-educacion{
     width: 50%;
@@ -202,7 +202,7 @@ video {
     font-weight: 400;
     font-style: normal;
     font-size: 22px;
-    color: #05DBF2;
+    color: #ddd5ec;
     text-align: left;
     
 }
@@ -308,7 +308,6 @@ margin-top: 10px;
     gap: 20px;
 }
 #con-img-competencia{
-    /* border: 2px solid rgb(184, 27, 27); */
     width: 40%;
     background-color: rgba(13, 36, 87, 0.9);
     padding:1%;
@@ -320,7 +319,6 @@ margin-top: 10px;
 }
 
 #con-texto-competencia{
-    /* border: 2px solid rgb(204, 27, 27); */
     width: 90%;
     background-color: rgba(13, 36, 87, 0.9);
     padding:3%;
@@ -330,7 +328,7 @@ margin-top: 10px;
 }
 .texto-habilidad{
 color: #ddd5ec;
-font-size: 16px;
+font-size: 20px;
 font-weight: 400;
 margin-top: 20px;
 }
@@ -361,7 +359,7 @@ margin-top: 20px;
     height: auto;
     max-width: 800px;
     overflow: hidden;
-    border: 1px solid #05DBF2;
+    /* border: 1px solid #05DBF2; */
     border-radius: 10px;
     
 }
@@ -380,7 +378,7 @@ margin-top: 20px;
    font-size: 22px;
    font-weight: 400;
    line-height: 1.5;
-   color: #05DBF2;
+   color: rgb(223, 221, 231);
 }
 .carousel-item a {
     font-size: 22px;
