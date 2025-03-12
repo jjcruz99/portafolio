@@ -171,14 +171,15 @@ video {
     justify-content: center;
     padding: 20px;  
     margin-bottom: 20px;
-    /* background: rgba(211, 208, 208, 0.212); */
     border-radius: 10px;
 }
 .con-descripcion{
     width: 40%;
     padding: 10px 40px 10px 40px;  
     margin-bottom: 20px;
-    /* background: rgba(211, 208, 208, 0.212); */
+    background: #344459;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 #texto-descripcion{
     text-align: justify;
@@ -192,7 +193,9 @@ video {
     width: 50%;
     padding: 20px 40px 20px 40px;  
     margin-bottom: 20px;
-    /* background: rgba(211, 208, 208, 0.212);*/
+    background: #344459;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 } 
 #lista-educacion{
     font-family: "Inter", serif;
