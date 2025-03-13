@@ -42,14 +42,17 @@
     align-items: center;
 }
 #container-navbar{
-   width: 50%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 60%;
    background-color: rgb(255, 255, 255);
    color: rgb(29, 28, 28);
    text-align: center;
    padding: 10px 0;
    box-shadow: 0 -2px 5px rgba(13, 36, 87, 0.8);
    margin-bottom: 35px;
-   justify-content: center;
    border-radius: 25px;
 }
 
@@ -63,7 +66,8 @@
 
 /* Efecto hover para los enlaces */
 .nav-secciones:hover {
-    background: linear-gradient(to left, #1a1296, #2914a1, #3615ad, #4216b8, #4f17c3, #4f17c3, #4f17c3, #4f17c3, #4216b8, #3615ad, #2914a1, #1a1296);
+    background: #05DBF2;
+    color: #8e16a3;
     border-radius: 10px;
 }
 #icono-barra-menu{
@@ -98,16 +102,12 @@ video {
   left: 0;
   width: 100%;
   height: 100%;
-  /* background-image: linear-gradient(to right top, #24035b, #042d7c, #004e97, #006eab, #008dba, #008dba, #008dba, #008dba, #006eab, #004e97, #042d7c, #24035b); */
-  /* background: #24035b; */
-  /* background: radial-gradient(circle, #24035b, #1b2474, #083e8a, #00569d, #006ead, #0072b0, #0075b2, #0079b5, #0069ad, #005aa3, #004998, #00398c); */
-  /* background: linear-gradient(to left, #1a1296, #2914a1, #3615ad, #4216b8, #4f17c3, #4f17c3, #4f17c3, #4f17c3, #4216b8, #3615ad, #2914a1, #1a1296); */
   background: linear-gradient(to top, #344459, #325074, #2e5c90, #2668ad, #1b74ca, #1781db, #108feb, #009dfc, #00afff, #00bffe, #00cef9, #05dbf2);
   opacity: 0.9;
   mix-blend-mode:color-burn; /*color-burn */
 }
 .con2-home{
-    /* border: 1px solid rgb(0, 0, 0); */
+    
     padding: 30px;
     margin: 30px;
     position: relative;
@@ -120,7 +120,6 @@ video {
 }
 
 .con3-home{
-    /* border: 1px solid rgb(0, 0, 0); */
     padding: 30px;
     margin: 200px 30px 30px 10px;
     position: relative;
@@ -147,6 +146,12 @@ video {
 .con-about-me{
     text-align: center;
     background: linear-gradient(to bottom, #0d0d0d, #1b1b20, #252732, #2d3545, #344459);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .subtitulos-2{
@@ -159,20 +164,19 @@ video {
     text-shadow: 2px 2px 2px #000;
     margin-top: 5px; 
 }
-.con-about-me{
-    padding: 30px;  
-}
+
 .con2-about-me{
-    width: 95%;
-    gap: 60px;
+    width: 98%;
+    gap: 30px;
     display: flex;
     justify-content: center;
+    align-content: center;
     padding: 20px;  
     margin-bottom: 20px;
     border-radius: 10px;
 }
 .con-descripcion{
-    width: 40%;
+    width: 48%;
     padding: 10px 40px 10px 40px;  
     margin-bottom: 20px;
     background: #344459;
@@ -189,7 +193,7 @@ video {
     color: #ddd5ec;
 }
 .con-educacion{
-    width: 50%;
+    width: 48%;
     padding: 20px 40px 20px 40px;  
     margin-bottom: 20px;
     background: #344459;
@@ -208,22 +212,19 @@ video {
 }
 #lista-educacion li{
 margin-top: 10px;
+list-style-type: none; /*eliminate los puntos de la lista */
 }
+
+
 /*final  Acerca de mi */
 
 
-
-
 /*  seccion competencies*/
-#sub-titulo-competencias{
-    color:  #ddd5ec;
-    font-size: 50px;
-    text-shadow: 2px 2px 2px #000;
-}
 
 .con-competencies{
     /* border: 1px solid blue; */
     text-align: center;
+    width: 100%;
     /* background: radial-gradient(circle, #1a1296, #2612a0, #3212aa, #3d12b4, #4810be, #4810be, #4810be, #4810be, #3d12b4, #3212aa, #2612a0, #1a1296); */
     background: linear-gradient(to bottom, #0d0d0d, #1b1b20, #252732, #2d3545, #344459);
 }
@@ -375,6 +376,7 @@ margin-top: 20px;
     padding: 20px;
 }
 .carousel-item p {
+    margin-top: 50px;
    font-size: 22px;
    font-weight: 400;
    line-height: 1.5;
@@ -398,6 +400,7 @@ margin-top: 20px;
     cursor: pointer;
     border-radius: 15px;
     font-size: 16px;
+    font-weight: 400;
 }
 
 .prev-btn {
@@ -552,12 +555,23 @@ margin-bottom:70px;
 /* Estilos para dispositivos medianos (M): 768px a 991px */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
+    /* ajustes barras de navegacion */
+    #container-navbar{
+        width: 30%;
+    }
+    #menu{
+        display: none;
+    }
+   
+     /* ajustes barras de navegacion */
+
+
     .sub-titulos{
         font-size: 45px;  
     }
   /*ajustes para el inicio */
 
-  .con-home{
+.con-home{
     height: 500px;
 }
   .con2-home{
@@ -590,7 +604,6 @@ margin-bottom:70px;
 }
 .con-about-me{
     padding: 20px;  
-    width: 90%;
 }
 .con2-about-me{
     width: 95%;
@@ -614,16 +627,82 @@ margin-bottom:70px;
 }
 /*final ajustes Acerca de mi*/
 
+/*ajustes section competencias*/
+.con2-competencias{
+    
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    gap: 10px;  
+}
+
+.Competencia{
+    width: 90%;
+    font-size: 14px;
+}
+
+.Competencia:hover{
+    font-size: 16px;
+    height: 40px; 
+}
+
+.des-competencias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    gap: 10px;
+}
+#con-img-competencia{
+    width: 40%;
+    background-color: rgba(13, 36, 87, 0.9);
+    padding:1%;
+    border-radius: 15px;
+    align-content: center;
+}
+#img-tec{
+    width: 50%;
+}
+
+#con-texto-competencia{
+    /* border: 2px solid rgb(204, 27, 27); */
+    width: 95%;
+}
+
+.texto-habilidad{
+font-size: 16px;
+font-weight: 350;
+}
+
+/*fin ajustes section competencias*/
+
 }
 
 /* Estilos para dispositivos pequeÃ±os (S): 576px a 767px */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+    #container-navbar{
+        width: 30%;
+    }
+    #menu{
+        display: none;
+    }
+  
 
     .sub-titulos{
         font-weight: 500;
         font-style: normal;
         font-size: 40px;  
     }
+    .subtitulos-2{
+        font-size: 30px; 
+        margin-top: 5px;
+    }
+
     /*ajustes para el inicio */
     .con-home{
         height: 400px; 
@@ -655,13 +734,9 @@ margin-bottom:70px;
 
      /*ajustes para Acerca de mi*/
 
-.subtitulos-2{
-    font-size: 30px; 
-    margin-top: 5px;
-}
+
 .con-about-me{
     padding: 20px;  
-    width: 90%;
 }
 .con2-about-me{
     width: 85%;
@@ -744,10 +819,14 @@ font-weight: 350;
         /*ajustes section proyectos*/
 
         .carousel-item p {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
+        margin-top: 40px;
         }
-
+        .carousel-item a {
+            font-size: 16px;
+            font-weight: 400;
+         }
         .boton-carrusel{
             font-size: 14px;
         }
@@ -863,10 +942,21 @@ font-weight: 350;
 /* Estilos para dispositivos extra pequeÃ±os (XS): Menos de 576px */
 @media (max-width: 575.98px) {
 
+    #container-navbar{
+        width: 30%;
+    }
+    #menu{
+        display: none;
+    }
+
     .sub-titulos{
         font-weight: 500;
         font-style: normal;
         font-size: 30px;  
+    }
+    .subtitulos-2{
+        font-size: 25px; 
+        margin-top: 5px;
     }
     /*ajustes para el inicio */
     .con-home{
@@ -881,8 +971,8 @@ font-weight: 350;
         margin-bottom: 5px;
     }
     #foto-perfil{
-        width: 60px;
-        height: 90px;
+        width: 90px;
+        height: 100px;
     }
     .con3-home{
         padding: 10px;
@@ -899,16 +989,13 @@ font-weight: 350;
 
      /*ajustes para Acerca de mi*/
 
-.subtitulos-2{
-    font-size: 30px; 
-    margin-top: 5px;
-}
+
 .con-about-me{
     padding: 5px;  
-    width: 90%;
+    
 }
 .con2-about-me{
-    width: 96%;
+    width: 90%;
     gap: 10px;
     padding: 10px;
     display: flex;
@@ -917,16 +1004,21 @@ font-weight: 350;
     align-items: center;
 }
 .con-descripcion{
-    width: 95%;
+    width: 90%;
+    padding: 15px;
 }
 #texto-descripcion{
     font-size: 15px;
 }
 .con-educacion{
     width: 95%;
+    padding: 10px;   
 }
+
 #lista-educacion{
-    font-size: 16px;
+    text-align: left;
+    font-size: 15px;
+    align-items: start;
 }
 
 /*final ajustes Acerca de mi*/
@@ -943,6 +1035,7 @@ font-weight: 350;
 }
 
 .Competencia{
+    margin: 5px 5px;
     width: 90%;
     font-size: 12px;
 }
@@ -962,7 +1055,6 @@ font-weight: 350;
     gap: 10px;
 }
 #con-img-competencia{
-    /* border: 2px solid rgb(184, 27, 27); */
     width: 40%;
     background-color: rgba(13, 36, 87, 0.9);
     padding:1%;
@@ -970,12 +1062,11 @@ font-weight: 350;
     align-content: center;
 }
 #img-tec{
-    width: 50%;
+    width: 60%;
 }
 
 #con-texto-competencia{
-    /* border: 2px solid rgb(204, 27, 27); */
-    width: 95%;
+    width: 98%;
 }
 
 .texto-habilidad{
@@ -988,20 +1079,24 @@ font-weight: 300;
           /*ajustes section proyectos*/
 
           .carousel-item p {
-            font-size: 12px;
+            margin-top: 100px;
+            font-size: 14px;
             font-weight: 400;
             }
-    
+            .carousel-item a {
+                font-size: 14px;
+                font-weight: 400;
+                }
             .boton-carrusel{
                 font-size: 12px;
             }
     
             .prev-btn {
-                left: 5px;
+                left: 1px;
             }
     
             .next-btn {
-                right: 5px;
+                right: 1px;
             }
             .img-proyecto{
                 width: 100px;
