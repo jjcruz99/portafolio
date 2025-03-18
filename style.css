@@ -59,7 +59,8 @@
 .nav-secciones:hover {
     border-radius: 10px;
     background: rgba(5,131,242,0.2);
-    color: #fff;
+    color: #344459;
+    font-weight: 400;
 }
 #icono-barra-menu{
     height: 20px ;
