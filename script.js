@@ -9,10 +9,10 @@ function detectarMovimiento() {
   if (navbar) {
     navbar.style.backgroundColor = "rgba(248, 245, 245, 0)";
     navSecciones.forEach((seccion) =>{
-         seccion.style.color = "rgba(248, 245, 245, 0.77)";
+         seccion.style.color = "rgba(248, 245, 245, 0.12)";
     });
     }
-    setTimeout(reestablecerColor, 3000);  
+    setTimeout(reestablecerColor, 5000);  
 }
 //funcion reestablecer estilos originales
 function reestablecerColor(){
@@ -129,3 +129,5 @@ nextBtn.addEventListener('click', () => {
 
 // Inicializa el carrusel
 updateCarousel();
+
+
