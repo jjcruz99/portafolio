@@ -58,7 +58,8 @@
 /* Efecto hover para los enlaces */
 .nav-secciones:hover {
     border-radius: 10px;
-    background-color: #0583F2;
+    background: rgba(5,131,242,0.2);
+    color: #fff;
 }
 #icono-barra-menu{
     height: 20px ;
