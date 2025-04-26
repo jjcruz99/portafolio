@@ -136,7 +136,7 @@ video {
 /*inicio  Acerca de mi */
 .con-about-me{
     text-align: center;
-    background: linear-gradient(to bottom, #0d0d0d, #1b1b20, #252732, #2d3545, #344459);
+    background: linear-gradient(to bottom, #041340, #072052, #092f65, #093d78, #044d8c);
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -151,7 +151,7 @@ video {
     font-weight: 500;
     font-style: normal;
     font-size: 35px; 
-    color: #0583F2;
+    color: #ddd5ec;
     text-shadow: 2px 2px 2px #000;
     margin-top: 5px; 
 }
@@ -170,9 +170,9 @@ video {
     width: 48%;
     padding: 10px 40px 10px 40px;  
     margin-bottom: 20px;
-    background: #344459;
+    background-color: #041340;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(5, 219, 242, 0.8);
+    box-shadow: 0 0 15px rgba(5, 242, 155, 0.8);
 }
 
 #texto-descripcion{
@@ -187,9 +187,9 @@ video {
     width: 48%;
     padding: 20px 40px 20px 40px;  
     margin-bottom: 20px;
-    background: #344459;
+    background-color: #041340;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(5, 131, 242, 0.8);
+    box-shadow: 0 0 15px rgba(178, 104, 251, 0.8);
 } 
 #lista-educacion{
     font-family: "Inter", serif;
@@ -198,8 +198,7 @@ video {
     font-style: normal;
     font-size: 22px;
     color: #ddd5ec;
-    text-align: left;
-    
+    text-align: left;   
 }
 #lista-educacion li{
 margin-top: 10px;
@@ -216,8 +215,7 @@ list-style-type: none; /*eliminate los puntos de la lista */
     /* border: 1px solid blue; */
     text-align: center;
     width: 100%;
-    /* background: radial-gradient(circle, #1a1296, #2612a0, #3212aa, #3d12b4, #4810be, #4810be, #4810be, #4810be, #3d12b4, #3212aa, #2612a0, #1a1296); */
-    background: linear-gradient(to bottom, #0d0d0d, #1b1b20, #252732, #2d3545, #344459);
+    background: linear-gradient(to bottom, #041340, #051640, #071940, #0a1b40, #0d1e40, #0f2246, #11274c, #132b52, #133360, #123b6e, #0e447d, #044d8c);
 }
 .con2-competencias{
     display: flex;
@@ -334,8 +332,8 @@ margin-top: 20px;
  display: flex;
  flex-direction: column;
  text-align: center;
- height: 600px;
- background: linear-gradient(to bottom, #0d0d0d, #1b1b20, #252732, #2d3545, #344459);
+ 
+ background: linear-gradient(to bottom, #041340, #051640, #071940, #0a1b40, #0d1e40, #0f2246, #11274c, #132b52, #133360, #123b6e, #0e447d, #044d8c);
 }
 
 /* carrusel proyectos  */
@@ -376,15 +374,15 @@ margin-top: 20px;
     font-size: 22px;
     font-weight: 400;
     line-height: 1.5;
-    color: #0583F2;
+    color: #f359ca;
  }
 
 .boton-carrusel{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #0583F2;
-    color: rgb(223, 221, 231);
+    background-color: #05F29B;
+    color:#041340 ;
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -401,8 +399,8 @@ margin-top: 20px;
     right: 10px;
 }
 .img-proyecto{
-    width: 150px;
-    height: 120px;
+    width: 450px;
+    height: 220px;
     border-radius: 10px;
 }
 /* fin carrusel proyectos  */
@@ -412,7 +410,7 @@ margin-top: 20px;
 /*Contact */
 .con-contact{
     text-align: center;
-    background: linear-gradient(to bottom, #0d0d0d, #1b1b20, #252732, #2d3545, #344459);
+    background: linear-gradient(to bottom, #041340, #051640, #071940, #0a1b40, #0d1e40, #0f2246, #11274c, #132b52, #133360, #123b6e, #0e447d, #044d8c);
 }
 .con-contact-contenido{
 display: flex;
@@ -437,12 +435,12 @@ margin-bottom:70px;
 }
 .con-datos-contacto p {
     font-size: 20px;
-    color: #0583F2;
+    color: #f359ca;
     margin: 20px;
 }
 .con-datos-contacto a{
     font-size: 20px;
-    color: #0583F2;
+    color: #f359ca;
     margin: 20px;
 }
 .icono-contacto{
@@ -560,9 +558,9 @@ margin-bottom:70px;
      /* ajustes barras de navegacion */
 
 
-    .sub-titulos{
-        font-size: 45px;  
-    }
+.sub-titulos{
+    font-size: 45px;  
+}
   /*ajustes para el inicio */
 
 .con-home{
