@@ -489,11 +489,21 @@ margin-bottom:70px;
     background-color: #1a1296;
     padding: 10px;
     margin: 10px;
+    animation: float 3s ease-in-out infinite;
 }
 .icono-contacto:hover{
     background-color: #0583F2;
     transform: rotate(30deg);
 }
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px); /* Flota hacia arriba */
+    }
+}
+
 /* contenedor formulario */
 .con-contact-contenido2{
     /* border: 2px solid rgb(128, 0, 117); */
