@@ -130,4 +130,20 @@ nextBtn.addEventListener('click', () => {
 // Inicializa el carrusel
 updateCarousel();
 
+// Seleccionar todos los subtítulos y contenedores
+const elementos = document.querySelectorAll('.sub-titulos, .con-descripcion, .con-educacion');
 
+// Configurar el Intersection Observer
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Agregar la clase "visible" cuando el elemento aparece en el viewport
+            entry.target.classList.add('visible');
+        }
+    });
+}, {
+    threshold: 0.5 // Al menos el 50% del elemento debe estar visible
+});
+
+// Observar cada subtítulo y contenedor
+elementos.forEach(elemento => observer.observe(elemento));

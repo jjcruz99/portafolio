@@ -10,16 +10,51 @@
     justify-content: center;
    }
 
-.sub-titulos{
+/* Subtítulos: Efecto de deslizamiento desde la izquierda */
+.sub-titulos {
     font-family: "Inter", serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    font-size: 50px;  
-    color:#ddd5ec ;
+    font-size: 50px;
+    color: #ddd5ec;
     text-shadow: 2px 2px 2px #000;
+
+    
+    transform: translateX(-100px); /* Desplazado hacia la izquierda */
+    transition: opacity 0.5s ease, transform 2s ease; /* Suaviza el cambio */
 }
 
+.sub-titulos.visible {
+    opacity: 1; /* Se hace visible */
+    transform: translateX(0); /* Vuelve a su posición original */
+}
+
+/*  Efecto de rebote */
+.con-descripcion, .con-educacion {
+    opacity: 0; /* No visible inicialmente */
+    transform: translateY(20px); /* Desplazado hacia abajo */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Suaviza el cambio */
+}
+
+.con-descripcion.visible, .con-educacion.visible {
+    opacity: 1; /* Se hace visible */
+    transform: translateY(0); /* Vuelve a su posición original */
+    animation: bounce 2s; /* Activa la animación de rebote */
+}
+
+/* Animación de rebote */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px); /* Rebote hacia arriba */
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
 
 /* Barra de navegación */
 .navbar {
@@ -32,6 +67,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    z-index: 100;/* Permanece encima de otros elementos */
 }
 #container-navbar{
    display: flex;
@@ -191,6 +227,9 @@ video {
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(178, 104, 251, 0.8);
 } 
+
+
+
 #lista-educacion{
     font-family: "Inter", serif;
     font-optical-sizing: auto;
