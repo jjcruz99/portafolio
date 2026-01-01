@@ -1,0 +1,19 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "```\r /Portafolio\r ├── cypress/                # \r │   ├── e2e/                # \r │   ├── fixtures/           # \r │   └── support/            # \r ├── src/                    # \r │   ├── css/                # Arquitectura SMACSS\r │   ├── js/                 # ES Modules\r │   └── pictures/           # Recursos visuales\r ├── index.html              # Punto de entrada de la web\r ├── cypress.config.js       # Configuración de Cypress\r ├── package.json            # Dependencias y scripts\r └── readme.md               # Documentación (Vital para un QA)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:ci": "npm run cypress:run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.8.1",
+    "cypress-mochawesome-reporter": "^4.0.2"
+  }
+}
