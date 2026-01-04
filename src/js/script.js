@@ -38,7 +38,7 @@ function insertarimagen(direccion,textosActuales){
 }
 
  document.getElementById('java').addEventListener('mousemove', function(){
-     const direccion = 'Pictures/java.png';
+     const direccion = 'src/Pictures/java.png';
      const textosDescripcion = `
         <p class="texto-habilidad">Encapsulamiento, herencia y polimorfismo para escribir código limpio y modular.</p>
         <p class="texto-habilidad">Uso eficiente de listas, mapas y conjuntos.</p>
@@ -47,7 +47,7 @@ function insertarimagen(direccion,textosActuales){
     insertarimagen(direccion,textosDescripcion);
  });
  document.getElementById('sprintboot').addEventListener('mousemove', function(){
-  const direccion = 'Pictures/boot_spring.png';
+  const direccion = 'src/Pictures/boot_spring.png';
   
   const textosDescripcion = `
     <p class="texto-habilidad">Creación de aplicaciones robustas y escalables con una estructura modular y siguiendo buenas prácticas.</p>
@@ -57,7 +57,7 @@ function insertarimagen(direccion,textosActuales){
    insertarimagen(direccion,textosDescripcion);
 });
 document.getElementById('github').addEventListener('mousemove', function(){
-  const direccion = 'Pictures/github.png';
+  const direccion = 'src/Pictures/github.png';
   const textosDescripcion = `
   <p class="texto-habilidad">Uso de comandos para gestionar el código de manera eficiente.</p>
   <p class="texto-habilidad">Manejo de repositorios remotos, pull requests y revisión de código en equipo mediante ramas.</p>
@@ -66,7 +66,7 @@ document.getElementById('github').addEventListener('mousemove', function(){
  insertarimagen(direccion,textosDescripcion);
 });
 document.getElementById('sql').addEventListener('mousemove', function(){
-const direccion = 'Pictures/mysql.png';
+const direccion = 'src/Pictures/mysql.png';
 const textosDescripcion = `
 <p class="texto-habilidad">Creación de estructuras eficientes con tablas normalizadas, relaciones y claves primarias/foráneas.</p>
 <p class="texto-habilidad">Subconsultas y funciones agregadas para extraer y manipular datos de manera efectiva.</p>
@@ -75,7 +75,7 @@ const textosDescripcion = `
 insertarimagen(direccion,textosDescripcion);
 });
 document.getElementById('js').addEventListener('mousemove', function(){
-  const direccion = 'Pictures/javascript.png';
+  const direccion = 'src/Pictures/javascript.png';
   const textosDescripcion = `
   <p class="texto-habilidad">Uso de DOM para modificar dinámicamente el contenido de la página.</p>
   <p class="texto-habilidad">Manejo de eventos con addEventListener, delegación de eventos y control de interacciones del usuario.</p>
@@ -84,7 +84,7 @@ document.getElementById('js').addEventListener('mousemove', function(){
  insertarimagen(direccion,textosDescripcion);
 });
 document.getElementById('css').addEventListener('mousemove', function(){
-  const direccion = 'Pictures/css.png';
+  const direccion = 'src/Pictures/css.png';
   const textosDescripcion = `
   <p class="texto-habilidad">Maquetación y diseño responsivo, uso de Flexbox y Grid para crear diseños adaptables y bien estructurados en cualquier dispositivo.</p>
   <p class="texto-habilidad">Aplicación de animaciones con @keyframes, transiciones suaves y efectos visuales modernos con box-shadow y filter.</p>
@@ -93,7 +93,7 @@ document.getElementById('css').addEventListener('mousemove', function(){
  insertarimagen(direccion,textosDescripcion);
 });
 document.getElementById('html').addEventListener('mousemove', function(){
-const direccion = 'Pictures/html.png';
+const direccion = 'src/Pictures/html.png';
 const textosDescripcion = `
 <p class="texto-habilidad">Uso de etiquetas como header, section, article y footer para mejorar la accesibilidad y el SEO.</p>
 <p class="texto-habilidad">Creación de formularios interactivos y validaciones con atributos como required y pattern.</p>
