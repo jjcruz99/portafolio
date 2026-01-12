@@ -10,21 +10,19 @@
 @import "./layout/footer.css";
 @import "./layout/grid.css";
 
+/* Components */
+@import "./components/button.css";
+@import "./components/input.css";
+@import "./components/textarea.css";
+@import "./components/label.css";
+@import "./components/img.css";
+
 /* Modules */
 @import "./modules/home.css";
 @import "./modules/about.css";
 @import "./modules/competencies.css";
 @import "./modules/projects.css";
 @import "./modules/contact.css";
-
-/* Components */
-@import "./components/button.css";
-@import "./components/input.css";
-@import "./components/textarea.css";
-@import "./components/label.css";
-@import "./components/carousel.css";
-
-
 
 /* Utilities */
 @import "./utilities/animations.css";
