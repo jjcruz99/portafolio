@@ -5,19 +5,27 @@
   font-style: normal;
 }
 
-.sub-titulos {
-    font-family: "Inter", serif;
-    font-weight: 600;
-    font-size: 50px;
-    color: #ddd5ec;
-    text-shadow: 2px 2px 2px #000;
-    transform: translateX(-100px);
-    transition: opacity 0.5s ease, transform 2s ease;
-}
-
 .inter-tipo {
   font-family: "Inter", serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+}
+
+.sub-titulos {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    color: #ddd5ec;
+    text-shadow: 2px 2px 2px #000; 
+}
+
+.subtitulos-2 {
+    font-weight: 500;
+    font-size: 35px;
+    color: #ddd5ec;
+    text-shadow: 2px 2px 2px #000;
+    margin-top: 2px;
 }

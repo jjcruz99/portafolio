@@ -11,6 +11,18 @@
     <link rel="icon" type="image/png" href="Pictures/java.png">
 </head>
 <body class="inter-tipo">
+
+    <header id="home" class="con-home">
+        <section class="con3-home">
+            <h1 class="name-main">John Jairo Cruz Mogollon</h1>
+            <h1 class="name-main">Ingeniero electrónico - QA Automation</h1> 
+        </section>
+        <video muted autoplay loop>
+            <source src="src/Pictures/baner_Portafolio.mp4" type="video/mp4">
+       </video>
+       <div class="capa">
+       </div>
+    </header>
   
     <nav class="navbar">
         <div id="container-navbar">
@@ -28,49 +40,65 @@
         </div>
     </nav>
 
-    <main id="home" class="con-home">
-        <section class="con2-home">
-            <!-- <img src="src/Pictures/Desarrollador_java.jpg" alt="Desarrollador" id="foto-perfil">  --> 
-             <div class="capa-img"></div>
-        </section>
-        <section class="con3-home">
-            <h1 class="name-main">John Jairo Cruz Mogollon</h1>
-            <h1 class="name-main">Ingeniero electrónico - QA Automation</h1> 
-        </section>
-        <video muted autoplay loop>
-            <source src="src/Pictures/baner_Portafolio.mp4" type="video/mp4">
-       </video>
-       <div class="capa"></div>
-    </main>
+
 
     <main id="about" class="con-about-me">
+
         <section class="con-subtitulos">
             <h2 class="sub-titulos" id="sub-titulo-perfil">Acerca de mí</h2>
         </section>
 
         <section class="con2-about-me">
-            <section class="con-descripcion">
-                <h3 class="subtitulos-2">¡Hola!</h3>
-                <p id="texto-descripcion">
-                    👋 Mucho gusto soy John Jairo Cruz Mogollón, ingeniero electrónico con énfasis 
-                    en desarrollo backend apasionado por la tecnología, la programación y el
-                    aprendizaje continuo. 
-                    Me encanta encontrar soluciones creativas a los problemas y ver 
-                    cómo mis ideas cobran vida. Disfruto aprender cosas nuevas y estar 
-                    siempre al día con los últimos avances. Soy proactivo, curioso,
-                    comprometido y siempre en busca de mejorar.
-                </p>
+            <section class="con-descripcion ">
+                <div id="contenedor-foto-perfil">
+                    <img src="/src/Pictures/Desarrollador_java.jpg" alt="foto-perfil" id="foto-perfil">
+                </div>
+
+                <div>                 
+                    <p id="texto-descripcion">
+                        👋 Hola, soy John Jairo Cruz Mogollón, Ingeniero Electrónico con formación en
+                        desarrollo Full Stack Java, apasionado por la tecnología y el aprendizaje
+                        continuo, con enfoque en calidad del software y automatización de pruebas.
+                        <br><br>
+                        Tengo experiencia en testing manual de sistemas bancarios, realizando diseño,
+                        ejecución y documentación de casos de prueba para procesos críticos del negocio.
+                        He trabajado en pruebas de APIs REST y Web Services SOAP con SoapUI, validación
+                        de reglas de negocio, parametría del sistema y generación de archivos masivos
+                        para procesos de originación y actualización de datos.
+
+                        Complemento esta experiencia con consultas en bases de datos mediante
+                        Transact-SQL (T-SQL) para validación de datos y análisis de incidencias, así como
+                        con el reporte, seguimiento de defectos y elaboración de reportes de pruebas,
+                        asegurando una comunicación clara del estado de calidad a los equipos
+                        involucrados.
+                        <br><br>
+                        Cuento con formación práctica en automatización de pruebas con Cypress,
+                        Selenium y Postman, y experiencia trabajando en entornos ágiles bajo
+                        metodología Scrum, con un enfoque autodidacta y orientado a la mejora continua.
+                    </p>
+
+                </div>
             </section>
             <section class="con-educacion">
-                <h3 class="subtitulos-2">Educación</h3>
-                <ul id="lista-educacion">
-                    <li>🎓 Ingeniero Electrónico - <span>UCC</span> </li>
-                    <li>🎓 Desarrollor FullStack Java - Generation</li>
-                    <li>🎓 SQL Server - Udemy</li>
-                    <li>🎓 Microsoft Azure Tools and Security - Coursera</li>
-                    <li>🎓 Developing Interpersonal Skills - Coursera</li>
-                    <li>🎓 Introduction to Microsoft Azure Cloud - Coursera</li>
-                </ul>
+                <div>
+                    <h3 class="subtitulos-2">Educación</h3>
+                </div>
+                <div id="contenedor-detalles-edu">
+                    <div>
+                        <ul id="lista-educacion">
+                            <li>🎓 Ingeniero Electrónico - <span>UCC</span> </li>
+                            <li>🎓 Desarrollor FullStack Java - Generation</li>
+                            <li>🎓 SQL Server - Udemy</li>
+                            <li>🎓 Microsoft Azure Tools and Security - Coursera</li>
+                            <li>🎓 Developing Interpersonal Skills - Coursera</li>
+                            <li>🎓 Introduction to Microsoft Azure Cloud - Coursera</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/Cypress-Light.svg" alt="imagen sobre mis estudios" id="image-educacion">
+                    </div>
+                </div>
+
             </section>
         </section>
     </main>

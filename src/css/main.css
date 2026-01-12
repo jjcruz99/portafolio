@@ -2,9 +2,13 @@
 @import "./base/reset.css";
 @import "./base/typography.css";
 
+/* State */
+@import "./states/states.css";
+
 /* Layout */
 @import "./layout/nav.css";
 @import "./layout/footer.css";
+@import "./layout/grid.css";
 
 /* Modules */
 @import "./modules/home.css";
@@ -19,10 +23,8 @@
 @import "./components/textarea.css";
 @import "./components/label.css";
 @import "./components/carousel.css";
-@import "./components/media.css";
 
-/* State */
-@import "./state/states.css";
+
 
 /* Utilities */
 @import "./utilities/animations.css";

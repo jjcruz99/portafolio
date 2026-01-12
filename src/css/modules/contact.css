@@ -14,14 +14,12 @@
         #123b6e, 
         #0e447d, 
         #044d8c);
-    border: 3px solid #bb2015;
 }
 .con-contact-contenido{
 display: flex;
 justify-content: center;
 flex-wrap: wrap-reverse;
 gap: 10px;
-border: 1px solid #bb2015;
 }
 
 /*? contenedor datos de contacto */

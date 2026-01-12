@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: left;
     position: relative;
-    height: 390px;
+    height: 250px;
 }
 
 video {
@@ -40,22 +40,9 @@ video {
     mix-blend-mode: color-burn;
 }
 
-.con2-home {
-    padding: 30px;
-    margin: 30px;
-    position: relative;
-    z-index: 2;
-}
-
-#foto-perfil {
-    width: 150px;
-    height: 200px;
-    border-radius: 10%;
-}
-
 .con3-home {
     padding: 30px;
-    margin: 200px 30px 30px 10px;
+    margin: 50px 30px 30px 50px;
     position: relative;
     z-index: 2;
 }

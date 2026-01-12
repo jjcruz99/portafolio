@@ -23,124 +23,124 @@
      /* ajustes barras de navegacion */
 
 
-.sub-titulos{
-    font-size: 45px;  
-}
-  /*ajustes para el inicio */
+    .sub-titulos{
+        font-size: 45px;  
+    }
+    /*ajustes para el inicio */
 
-.con-home{
-    height: 500px;
-}
-  .con2-home{
-    padding: 10px;
-    margin: 20px;
-}
-#foto-perfil{
-    width: 150px;
-    height: 200px;
-}
-.con3-home{
-    padding: 30px;
-    margin: 110px 30px 30px 10px;
-}
+    .con-home{
+        height: 500px;
+    }
+    .con2-home{
+        padding: 10px;
+        margin: 20px;
+    }
+    #foto-perfil{
+        width: 150px;
+        height: 200px;
+    }
+    .con3-home{
+        padding: 30px;
+        margin: 110px 30px 30px 10px;
+    }
 
-.name-main{
-    margin: 10px;
-    font-family: "Inter", ;
-    font-weight:400;
-    font-size: 35PX;
-}
-
-
-  /*ajustes para Acerca de mi*/
+    .name-main{
+        margin: 10px;
+        font-family: "Inter", ;
+        font-weight:400;
+        font-size: 35PX;
+    }
 
 
-.subtitulos-2{
-    font-size: 30px; 
-    margin-top: 5px;
-}
-.con-about-me{
-    padding: 20px;  
-}
-.con2-about-me{
-    width: 95%;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.con-descripcion{
-    width: 80%;
-}
-#texto-descripcion{
-    font-size: 18px;
-}
-.con-educacion{
-    width: 80%;
-}
-#lista-educacion{
-    font-size: 18px;
-}
-/*final ajustes Acerca de mi*/
+    /*ajustes para Acerca de mi*/
 
-/*ajustes section competencias*/
-.con2-competencias{
-    
-    display: flex;
-    justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    gap: 10px;  
-}
 
-.Competencia{
-    width: 90%;
-    font-size: 14px;
-}
+    .subtitulos-2{
+        font-size: 30px; 
+        margin-top: 5px;
+    }
+    .con-about-me{
+        padding: 20px;  
+    }
+    .con2-about-me{
+        width: 95%;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .con-descripcion{
+        width: 80%;
+    }
+    #texto-descripcion{
+        font-size: 18px;
+    }
+    .con-educacion{
+        width: 80%;
+    }
+    #lista-educacion{
+        font-size: 18px;
+    }
+    /*final ajustes Acerca de mi*/
 
-.Competencia:hover{
+    /*ajustes section competencias*/
+    .con2-competencias{
+        
+        display: flex;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        gap: 10px;  
+    }
+
+    .Competencia{
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .Competencia:hover{
+        font-size: 16px;
+    }
+
+    .des-competencias{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: auto;
+        gap: 10px;
+    }
+    #con-img-competencia{
+        width: 40%;
+        background-color: rgba(13, 36, 87, 0.9);
+        padding:1%;
+        border-radius: 15px;
+        align-content: center;
+    }
+    #img-tec{
+        width: 50%;
+    }
+
+    #con-texto-competencia{
+        /* border: 2px solid rgb(204, 27, 27); */
+        width: 95%;
+    }
+
+    .texto-habilidad{
     font-size: 16px;
-}
+    font-weight: 350;
+    }
 
-.des-competencias{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: auto;
-    gap: 10px;
-}
-#con-img-competencia{
-    width: 40%;
-    background-color: rgba(13, 36, 87, 0.9);
-    padding:1%;
-    border-radius: 15px;
-    align-content: center;
-}
-#img-tec{
-    width: 50%;
-}
+    /*fin ajustes section competencias*/
 
-#con-texto-competencia{
-    /* border: 2px solid rgb(204, 27, 27); */
-    width: 95%;
-}
-
-.texto-habilidad{
-font-size: 16px;
-font-weight: 350;
-}
-
-/*fin ajustes section competencias*/
-
-.con-form-boton button{
-    height: 60px;
-    width: 120px;
-    font-size: 22px; 
-}
+    .con-form-boton button{
+        height: 60px;
+        width: 120px;
+        font-size: 22px; 
+    }
 
 }
 

@@ -1,6 +1,6 @@
 .sub-titulos {
-    transform: translateX(-100px);
-    transition: opacity 0.5s ease, transform 2s ease;
+    transform: translateX(-100px); 
+    transition: opacity 0.5s ease, transform 2s ease; 
 }
 
 .sub-titulos.visible {
@@ -12,6 +12,7 @@
 .con-educacion {
     opacity: 0;
     transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .con-descripcion.visible,
