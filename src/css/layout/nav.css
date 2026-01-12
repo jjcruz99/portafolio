@@ -1,0 +1,41 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#container-navbar {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 60%;
+   background-color: #ffffff;
+   padding: 10px 0;
+   box-shadow: 0 -2px 5px rgba(13, 36, 87, 0.8);
+   margin-bottom: 35px;
+   border-radius: 25px;
+}
+
+.nav-secciones {
+    color: rgb(14, 13, 13);
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-secciones:hover {
+    border-radius: 10px;
+    background: rgba(5,131,242,0.2);
+    color: #344459;
+    font-weight: 400;
+}
+
+#icono-barra-menu {
+    height: 20px;
+}

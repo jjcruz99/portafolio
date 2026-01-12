@@ -1,0 +1,22 @@
+.sub-titulos {
+    transform: translateX(-100px);
+    transition: opacity 0.5s ease, transform 2s ease;
+}
+
+.sub-titulos.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.con-descripcion,
+.con-educacion {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.con-descripcion.visible,
+.con-educacion.visible {
+    opacity: 1;
+    transform: translateY(0);
+    animation: bounce 2s;
+}

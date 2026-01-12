@@ -1,0 +1,11 @@
+.con-footer {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    background: #1a1296;
+    color: #ddd5ec;
+    height: 50px;
+    font-size: 12px;
+    padding-right: 40px;
+}
+

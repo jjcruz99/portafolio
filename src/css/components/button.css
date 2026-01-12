@@ -1,0 +1,43 @@
+.con-form-boton {
+    display: flex;
+    justify-content: right;
+}
+
+.con-form-boton button {
+    height: 80px;
+    width: 150px;
+    border-radius: 15px;
+    border: 2px solid #007BFF;
+    font-size: 26px;
+    color: #ddd5ec;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.con-form-boton button:hover {
+    border: 2px solid #910fe7;
+    box-shadow: 0 0 20px rgba(45, 162, 240, 0.979); 
+}
+
+/**Botones carrusel*/
+
+.boton-carrusel{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #05F29B;
+    color:#041340 ;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}

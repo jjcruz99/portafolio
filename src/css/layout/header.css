@@ -1,0 +1,18 @@
+.con-home {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    height: 590px;
+}
+
+.con2-home, .con3-home {
+    padding: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 767.98px) {
+    .con-home { height: 400px; flex-direction: column; }
+    .con2-home { margin-top: 80px; }
+}

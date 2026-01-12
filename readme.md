@@ -7,6 +7,12 @@
 │   └── support/            # 
 ├── src/                    # 
 │   ├── css/                # 
+|   |   ├──base
+|   |   |  ├──.css
+|   |   ├──components
+|   |   ├──layout
+|   |   ├──utilities
+|   |   ├──main.css
 │   ├── js/                 # 
 │   └── pictures/           # 
 ├── .gitignore

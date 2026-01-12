@@ -1,0 +1,10 @@
+/* .sub-titulos.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.con-descripcion.visible, .con-educacion.visible {
+    opacity: 1;
+    transform: translateY(0);
+    animation: bounce 2s;
+} */

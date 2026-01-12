@@ -1,0 +1,131 @@
+
+.con-contact{
+    text-align: center;
+    background: linear-gradient(to bottom, 
+        #041340, 
+        #051640, 
+        #071940, 
+        #0a1b40, 
+        #0d1e40,
+        #0f2246, 
+        #11274c, 
+        #132b52, 
+        #133360, 
+        #123b6e, 
+        #0e447d, 
+        #044d8c);
+    border: 3px solid #bb2015;
+}
+.con-contact-contenido{
+display: flex;
+justify-content: center;
+flex-wrap: wrap-reverse;
+gap: 10px;
+border: 1px solid #bb2015;
+}
+
+/*? contenedor datos de contacto */
+.con-contact-contenido1{
+display: flex;
+flex-direction: row;
+padding: 20px;
+justify-content: center;
+align-items: center;
+align-content: center;
+width: 90%;
+margin-bottom:70px;
+}
+.con-datos-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.con-datos-contacto p {
+    font-size: 20px;
+    color: #f359ca;
+    margin: 20px;
+}
+.con-datos-contacto a{
+    font-size: 20px;
+    color: #f359ca;
+    margin: 20px;
+}
+.icono-contacto{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #1a1296;
+    padding: 10px;
+    margin: 10px;
+    animation: float 3s ease-in-out infinite;
+}
+.icono-contacto:hover{
+    background-color: #0583F2;
+    transform: rotate(30deg);
+}
+
+
+/*? contenedor formulario */
+.con-contact-contenido2{
+    /* border: 2px solid rgb(128, 0, 117); */
+    padding: 20px;
+    width: 90%;
+}
+.form-contacto1{
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    justify-content:space-between ;
+}
+.form-contacto2{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.con-entradas{
+ display: flex;
+ flex-direction: column;
+ text-align: left;
+ width: 100%;
+}
+.con-entradas label{
+    font-size: 20px;
+    color: #ddd5ec;
+    margin: 10px 10px;
+   }
+   .con-entradas input{
+    font-size: 20px;
+    color: #1e0350;
+    margin: 10px 10px;
+    height: 30px;
+    border-radius: 10px;
+    width: 92%;
+   }  
+   .con-entradas textarea{
+    font-family: "Inter", serif;
+    font-size: 20px;
+    
+    color: #1e0350;
+    margin: 10px 10px;
+    border-radius: 10px;
+   } 
+.con-form-boton{
+    display: flex;
+    justify-content: right;
+}
+.con-form-boton button{
+    height: 80px;
+    width: 150px;
+    border-radius: 15px;
+    border: 2px solid #007BFF;
+    font-size: 26px;
+    color: #ddd5ec;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-right: 40px;
+}
+.con-form-boton button:hover{
+    border: 2px solid #910fe7;
+    box-shadow: 0px 0px 20px rgba(45, 162, 240, 0.979);
+}
+
